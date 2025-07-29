@@ -1,0 +1,14 @@
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  src: url('@/shared/fonts/pixelify-sans/PixelifySans-Variable.woff') format('woff'),
+       url('@/shared/fonts/pixelify-sans/PixelifySans-Variable.ttf') format('truetype');
+  font-family: 'PixelifySans';
+  font-display: swap; /* Optional: Controls how fonts load */
+}
+
+
+body {
+  font-weight: 400;
+  font-family: 'PixelifySans', sans-serif;
+}
